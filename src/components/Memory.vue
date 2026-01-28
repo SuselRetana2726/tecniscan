@@ -14,7 +14,7 @@
                 <img src="/images/card.png" alt="Reverso"/>
               </div>
               <div class="card-back">
-                <img :src="carta.especial ? '/images/special-card.png' : getImagenCarta(carta.valor)" :alt="carta.valor"  />
+                <img :src="carta.especial ? getImagenCarta('special-card.png')  : getImagenCarta(carta.valor)" :alt="carta.valor"  />
               </div>
             </div>
           </div>
